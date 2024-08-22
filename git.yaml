@@ -10,4 +10,5 @@ metadata:
     gitlab.com/instance: gitlab.internal.abcd # abcd, represents local instance used
 spec:
   type: service
+  lifecycle: production # Add a lifecycle field with a valid value such as 'development', 'production', or 'decommissioned'
   # Add additional spec fields as required
